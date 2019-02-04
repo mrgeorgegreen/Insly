@@ -17,3 +17,12 @@ document.getElementById('day').value = new Date().getDay();
 document.getElementById('hours').value = new Date().getHours();
 </script>
 </body>
+
+<p><b> TASK 1 </b></p>
+<?php
+
+foreach (str_split("George") as $n){
+    echo $n . '</br>';
+}
+
+?>
